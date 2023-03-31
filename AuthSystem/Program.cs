@@ -12,6 +12,8 @@ builder.Services.AddDefaultIdentity<ApplicationUser>(options => options.SignIn.R
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+//builder.Services.AddAuthorization();
+builder.Services.AddRazorPages();//Add RaszorPages
 
 var app = builder.Build();
 
@@ -29,5 +31,6 @@ app.UseAuthorization();
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
-
+//app.UseAuthorization();
+app.MapRazorPages();
 app.Run();
