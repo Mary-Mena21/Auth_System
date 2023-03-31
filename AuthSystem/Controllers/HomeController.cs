@@ -1,9 +1,11 @@
 ﻿using AuthSystem.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
 namespace AuthSystem.Controllers
 {
+    [Authorize]//*********** will not open home page unless you sign in *************//
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;

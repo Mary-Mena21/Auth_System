@@ -8,7 +8,7 @@ var connectionString = builder.Configuration.GetConnectionString("AuthDbContextC
 
 builder.Services.AddDbContext<AuthDbContext>(options => options.UseSqlServer(connectionString));
 
-builder.Services.AddDefaultIdentity<ApplicationUser>(options => options.SignIn.RequireConfirmedAccount = true).AddEntityFrameworkStores<AuthDbContext>();
+builder.Services.AddDefaultIdentity<ApplicationUser>(options => options.SignIn.RequireConfirmedAccount = false).AddEntityFrameworkStores<AuthDbContext>();
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
@@ -34,3 +34,8 @@ app.MapControllerRoute(
 //app.UseAuthorization();
 app.MapRazorPages();
 app.Run();
+//Add-Migration "Initial Migration"
+//Update-Database
+
+//connect with SQL and create tables
+//utube Link https://www.youtube.com/watch?v=wzaoQiS_9dI
