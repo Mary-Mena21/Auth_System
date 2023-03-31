@@ -5,7 +5,7 @@ using System.Diagnostics;
 
 namespace AuthSystem.Controllers
 {
-    [Authorize]
+    [Authorize]//*********** will not open home page unless you sign in *************//
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
