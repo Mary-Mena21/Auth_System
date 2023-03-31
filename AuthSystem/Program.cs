@@ -37,5 +37,6 @@ app.Run();
 //Add-Migration "Initial Migration"
 //Update-Database
 
+//Remove-Migration -Force
 //connect with SQL and create tables
 //utube Link https://www.youtube.com/watch?v=wzaoQiS_9dI
