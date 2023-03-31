@@ -1,7 +1,6 @@
 # Auth_System
 In this ASP.NET Core MVC tutorial, complete authentication system with the help of Identity.UI. 
 It includes user registration and login form. and a form for user profile management.
-
-![1](https://user-images.githubusercontent.com/85176043/229240076-a66c10c4-c553-456f-b625-63a56bb96514.jpg)
-![2](https://user-images.githubusercontent.com/85176043/229240077-4fce9f8c-120e-441e-a51f-8c99f35d3fbb.jpg)
-![3](https://user-images.githubusercontent.com/85176043/229240079-02bbd1e3-c50e-4956-aba7-8c0dabb03c05.jpg)
+![1](https://user-images.githubusercontent.com/85176043/229240541-50c6261b-4f99-4a19-8ce3-feed656e8183.jpg)
+![2](https://user-images.githubusercontent.com/85176043/229240544-9dae931d-1f30-41cb-815f-ac9a6b02f863.jpg)
+![3](https://user-images.githubusercontent.com/85176043/229240545-c24d9600-d515-47d5-9e45-993f3af428a8.jpg)
